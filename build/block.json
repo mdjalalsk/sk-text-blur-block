@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/sk-text-blur",
+  "version": "0.1.0",
+  "title": "Sk Text Blur",
+  "category": "text",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "typography": {
+      "textAlign": true,
+      "fontSize": true
+    },
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "html": false
+  },
+  "textdomain": "sk-text-blur",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

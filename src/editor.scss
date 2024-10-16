@@ -1,0 +1,15 @@
+// Styles for blurred text only
+.wp-block-create-block-sk-text-blur {
+
+	.sk-blur-text{
+		filter: blur(4px);
+		display: inline-block;
+
+		&:not(:empty) {
+			filter: blur(4px);
+		}
+	}
+}
+
+
+
